@@ -1,0 +1,37 @@
+/* Basic styling for tables and layout */
+
+body {
+    background: white;
+    color: black;
+
+
+h1, h2 {
+
+    text-align: left;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+
+    font-size: 14px;
+}
+
+table caption {
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 0.25rem;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+table th {
+    background: #e0e0e0;
+}
+
+
